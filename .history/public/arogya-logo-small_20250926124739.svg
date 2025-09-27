@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- API Gear at top -->
+  <g transform="translate(50, 15)">
+    <!-- Outer gear ring with teeth -->
+    <g fill="#0d7377" stroke="#0d7377" stroke-width="0.5">
+      <!-- Main circle -->
+      <circle cx="0" cy="0" r="8" fill="#0d7377"/>
+      <!-- Gear teeth around the circle -->
+      <rect x="-1" y="-10" width="2" height="2" rx="0.5"/>
+      <rect x="-1" y="8" width="2" height="2" rx="0.5"/>
+      <rect x="-10" y="-1" width="2" height="2" rx="0.5"/>
+      <rect x="8" y="-1" width="2" height="2" rx="0.5"/>
+      <!-- Diagonal teeth -->
+      <g transform="rotate(45)">
+        <rect x="-1" y="-10" width="2" height="2" rx="0.5"/>
+        <rect x="-1" y="8" width="2" height="2" rx="0.5"/>
+        <rect x="-10" y="-1" width="2" height="2" rx="0.5"/>
+        <rect x="8" y="-1" width="2" height="2" rx="0.5"/>
+      </g>
+    </g>
+    <!-- Inner circle -->
+    <circle cx="0" cy="0" r="5.5" fill="#14a085" stroke="#0d7377" stroke-width="0.5"/>
+    <!-- API text -->
+    <text x="0" y="1.5" font-family="Arial, sans-serif" font-size="3.5" font-weight="bold" text-anchor="middle" fill="white">API</text>
+  </g>
+
+  <!-- Main Caduceus Symbol -->
+  <g transform="translate(50, 50)">
+    <!-- Central staff/rod -->
+    <rect x="-1" y="-25" width="2" height="40" fill="#0d7377" rx="1"/>
+    
+    <!-- Wings at top -->
+    <g fill="#7bc043">
+      <path d="M -5 -22 Q -8 -25 -7 -27 Q -4 -25 -3 -23 L -4.5 -22.5 Z"/>
+      <path d="M 5 -22 Q 8 -25 7 -27 Q 4 -25 3 -23 L 4.5 -22.5 Z"/>
+    </g>
+    
+    <!-- Two intertwined serpents -->
+    <g stroke="#0d7377" stroke-width="1.2" fill="none">
+      <!-- Left serpent -->
+      <path d="M -3 -20 Q -6 -15 -2.5 -12 Q 2.5 -9 -2.5 -6 Q -6 -3 -2.5 0 Q 2.5 3 -2.5 6 Q -6 9 -2.5 12 Q 2.5 15 -2.5 18"/>
+      <!-- Right serpent -->
+      <path d="M 3 -20 Q 6 -15 2.5 -12 Q -2.5 -9 2.5 -6 Q 6 -3 2.5 0 Q -2.5 3 2.5 6 Q 6 9 2.5 12 Q -2.5 15 2.5 18"/>
+    </g>
+    
+    <!-- Serpent heads -->
+    <g fill="#0d7377">
+      <ellipse cx="-3" cy="-20" rx="1.2" ry="1.6"/>
+      <ellipse cx="3" cy="-20" rx="1.2" ry="1.6"/>
+      <!-- Eyes -->
+      <circle cx="-2.8" cy="-20.5" r="0.3" fill="white"/>
+      <circle cx="2.8" cy="-20.5" r="0.3" fill="white"/>
+    </g>
+    
+    <!-- DNA helix elements -->
+    <g fill="#0d7377" opacity="0.8">
+      <circle cx="-2" cy="-15" r="0.6"/>
+      <circle cx="2" cy="-12" r="0.6"/>
+      <circle cx="-2" cy="-9" r="0.6"/>
+      <circle cx="2" cy="-6" r="0.6"/>
+      <circle cx="-2" cy="-3" r="0.6"/>
+      <circle cx="2" cy="0" r="0.6"/>
+      <circle cx="-2" cy="3" r="0.6"/>
+      <circle cx="2" cy="6" r="0.6"/>
+      <circle cx="-2" cy="9" r="0.6"/>
+      <circle cx="2" cy="12" r="0.6"/>
+      <!-- Connecting lines -->
+      <g stroke="#14a085" stroke-width="0.4" opacity="0.6">
+        <line x1="-2" y1="-15" x2="2" y2="-12"/>
+        <line x1="-2" y1="-9" x2="2" y2="-6"/>
+        <line x1="-2" y1="-3" x2="2" y2="0"/>
+        <line x1="-2" y1="3" x2="2" y2="6"/>
+        <line x1="-2" y1="9" x2="2" y2="12"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Natural leaves around the symbol -->
+  <g fill="#7bc043">
+    <!-- Left side leaves -->
+    <path d="M 25 35 Q 20 32 23 28 Q 27 31 26 36 Q 25.5 35.5 25 35 Z"/>
+    <path d="M 22 45 Q 17 42 20 38 Q 24 41 23 46 Q 22.5 45.5 22 45 Z"/>
+    <path d="M 24 55 Q 19 52 22 48 Q 26 51 25 56 Q 24.5 55.5 24 55 Z"/>
+    <path d="M 25 65 Q 20 62 23 58 Q 27 61 26 66 Q 25.5 65.5 25 65 Z"/>
+    
+    <!-- Right side leaves -->
+    <path d="M 75 35 Q 80 32 77 28 Q 73 31 74 36 Q 74.5 35.5 75 35 Z"/>
+    <path d="M 78 45 Q 83 42 80 38 Q 76 41 77 46 Q 77.5 45.5 78 45 Z"/>
+    <path d="M 76 55 Q 81 52 78 48 Q 74 51 75 56 Q 75.5 55.5 76 55 Z"/>
+    <path d="M 75 65 Q 80 62 77 58 Q 73 61 74 66 Q 74.5 65.5 75 65 Z"/>
+    
+    <!-- Additional smaller leaves -->
+    <path d="M 30 28 Q 26 26 28 23 Q 31 25 30.5 28 Z"/>
+    <path d="M 70 28 Q 74 26 72 23 Q 69 25 69.5 28 Z"/>
+  </g>
+
+  <!-- Circuit board pattern elements -->
+  <g stroke="#32c5d2" stroke-width="0.4" fill="none" opacity="0.7">
+    <!-- Left circuit lines -->
+    <line x1="10" y1="35" x2="25" y2="35"/>
+    <line x1="12" y1="45" x2="22" y2="45"/>
+    <line x1="11" y1="55" x2="24" y2="55"/>
+    <line x1="13" y1="65" x2="25" y2="65"/>
+    
+    <!-- Right circuit lines -->
+    <line x1="75" y1="35" x2="90" y2="35"/>
+    <line x1="78" y1="45" x2="88" y2="45"/>
+    <line x1="76" y1="55" x2="89" y2="55"/>
+    <line x1="75" y1="65" x2="87" y2="65"/>
+    
+    <!-- Circuit connection nodes -->
+    <g fill="#32c5d2">
+      <circle cx="10" cy="35" r="0.8"/>
+      <circle cx="90" cy="35" r="0.8"/>
+      <circle cx="12" cy="45" r="0.8"/>
+      <circle cx="88" cy="45" r="0.8"/>
+      <circle cx="11" cy="55" r="0.6"/>
+      <circle cx="89" cy="55" r="0.6"/>
+      <circle cx="13" cy="65" r="0.6"/>
+      <circle cx="87" cy="65" r="0.6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- API Gear at top -->
+  <g transform="translate(256, 80)">
+    <circle cx="0" cy="0" r="35" fill="#2D8A8A" stroke="#2D8A8A" stroke-width="3"/>
+    <!-- Gear teeth -->
+    <g fill="#2D8A8A">
+      <rect x="-3" y="-45" width="6" height="10"/>
+      <rect x="-3" y="35" width="6" height="10"/>
+      <rect x="-45" y="-3" width="10" height="6"/>
+      <rect x="35" y="-3" width="10" height="6"/>
+      <rect x="-32" y="-32" width="8" height="8" transform="rotate(45)"/>
+      <rect x="24" y="-32" width="8" height="8" transform="rotate(45)"/>
+      <rect x="-32" y="24" width="8" height="8" transform="rotate(45)"/>
+      <rect x="24" y="24" width="8" height="8" transform="rotate(45)"/>
+    </g>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">API</text>
+  </g>
+
+  <!-- Caduceus symbol -->
+  <g transform="translate(256, 256)">
+    <!-- Central staff -->
+    <line x1="0" y1="-120" x2="0" y2="120" stroke="#2D8A8A" stroke-width="8"/>
+    
+    <!-- Wings at top -->
+    <path d="M -25 -100 Q -40 -110 -35 -120 Q -20 -115 -15 -105 Z" fill="#7BC142"/>
+    <path d="M 25 -100 Q 40 -110 35 -120 Q 20 -115 15 -105 Z" fill="#7BC142"/>
+    
+    <!-- Serpents -->
+    <path d="M -15 -80 Q -30 -60 -10 -40 Q 10 -20 -10 0 Q -30 20 -10 40 Q 10 60 -10 80" 
+          stroke="#2D8A8A" stroke-width="6" fill="none"/>
+    <path d="M 15 -80 Q 30 -60 10 -40 Q -10 -20 10 0 Q 30 20 10 40 Q -10 60 10 80" 
+          stroke="#2D8A8A" stroke-width="6" fill="none"/>
+    
+    <!-- Serpent heads -->
+    <circle cx="-10" cy="-80" r="5" fill="#2D8A8A"/>
+    <circle cx="10" cy="-80" r="5" fill="#2D8A8A"/>
+    
+    <!-- DNA strands -->
+    <g opacity="0.7">
+      <circle cx="-8" cy="-60" r="3" fill="#2D8A8A"/>
+      <circle cx="8" cy="-40" r="3" fill="#2D8A8A"/>
+      <circle cx="-8" cy="-20" r="3" fill="#2D8A8A"/>
+      <circle cx="8" cy="0" r="3" fill="#2D8A8A"/>
+      <circle cx="-8" cy="20" r="3" fill="#2D8A8A"/>
+      <circle cx="8" cy="40" r="3" fill="#2D8A8A"/>
+      <circle cx="-8" cy="60" r="3" fill="#2D8A8A"/>
+    </g>
+  </g>
+
+  <!-- Leaves around the caduceus -->
+  <g fill="#7BC142">
+    <!-- Left side leaves -->
+    <path d="M 180 200 Q 160 190 170 170 Q 190 180 185 200 Z"/>
+    <path d="M 160 240 Q 140 230 150 210 Q 170 220 165 240 Z"/>
+    <path d="M 170 280 Q 150 270 160 250 Q 180 260 175 280 Z"/>
+    <path d="M 180 320 Q 160 310 170 290 Q 190 300 185 320 Z"/>
+    
+    <!-- Right side leaves -->
+    <path d="M 332 200 Q 352 190 342 170 Q 322 180 327 200 Z"/>
+    <path d="M 352 240 Q 372 230 362 210 Q 342 220 347 240 Z"/>
+    <path d="M 342 280 Q 362 270 352 250 Q 332 260 337 280 Z"/>
+    <path d="M 332 320 Q 352 310 342 290 Q 322 300 327 320 Z"/>
+  </g>
+
+  <!-- Circuit board patterns -->
+  <g stroke="#4FC3F7" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Left circuits -->
+    <line x1="100" y1="200" x2="180" y2="200"/>
+    <line x1="120" y1="240" x2="160" y2="240"/>
+    <line x1="110" y1="280" x2="170" y2="280"/>
+    <line x1="130" y1="320" x2="180" y2="320"/>
+    
+    <!-- Right circuits -->
+    <line x1="332" y1="200" x2="412" y2="200"/>
+    <line x1="352" y1="240" x2="392" y2="240"/>
+    <line x1="342" y1="280" x2="402" y2="280"/>
+    <line x1="332" y1="320" x2="382" y2="320"/>
+    
+    <!-- Circuit nodes -->
+    <circle cx="100" cy="200" r="3" fill="#4FC3F7"/>
+    <circle cx="412" cy="200" r="3" fill="#4FC3F7"/>
+    <circle cx="120" cy="240" r="3" fill="#4FC3F7"/>
+    <circle cx="392" cy="240" r="3" fill="#4FC3F7"/>
+  </g>
+
+  <!-- AROGYA text -->
+  <text x="256" y="420" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#2D8A8A">AROGYA</text>
+  
+  <!-- CODES text -->
+  <text x="256" y="460" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#F2994A">CODES</text>
+</svg>
